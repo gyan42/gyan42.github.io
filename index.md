@@ -7,11 +7,5 @@ layout: default
 
 # Home
 
-## Theory
-- [MiniFlow](https://dhiraa.github.io/miniflow)
-  - A simple python code that imitates the TensorFlow Neural Netowrk Model backed by Backpropagation Maths!
 
-## My Lab
-
-[sarvam](https://dhiraa.github.io/sarvam/)
 
