@@ -3,11 +3,10 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to Mozhi’s documentation! &mdash; Mozhi 0.0.1 documentation</title>
+  <title>Search &mdash; Mozhi 0.0.1 documentation</title>
   
 
   
@@ -29,8 +28,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" type="text/css" />
   <link rel="stylesheet" href="_static/css/mozhi_style.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Developers Guide" href="setup/setup.html" /> 
+    <link rel="search" title="Search" href="#" /> 
 
 </head>
 
@@ -38,7 +36,7 @@
     <header>
         <div class="container">
             <a class="site-nav-toggle hidden-lg-up"><i class="icon-menu"></i></a>
-            <a class="site-title" href="#">
+            <a class="site-title" href="index.html">
                 Mozhi
             </a>
         </div>
@@ -67,16 +65,14 @@
 
   <ul class="breadcrumbs">
     
-      <li><a href="#">Docs</a></li>
+      <li><a href="index.html">Docs</a></li>
         
-      <li>Welcome to Mozhi’s documentation!</li>
+      <li>Search</li>
     
     
       <li class="breadcrumbs-aside">
         
             
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
-          
         
       </li>
     
@@ -90,7 +86,7 @@
                 <div class="col-12 col-lg-3 site-nav">
                     
 <div role="search">
-    <form class="search" action="search.html" method="get">
+    <form class="search" action="#" method="get">
         <div class="icon-input">
             <input type="text" name="q" placeholder="Search" />
             <span class="icon-search"></span>
@@ -268,76 +264,19 @@
                     <div class="document">
                         
                             
-  <section id="welcome-to-mozhi-s-documentation">
-<h1>Welcome to Mozhi’s documentation!<a class="headerlink" href="#welcome-to-mozhi-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>NER is an information extraction technique to identify and classify named entities in text.
-It’s a process where an algorithm takes a string of text (sentence or paragraph) as input and identifies
-relevant nouns (mainly people, places, and organizations…) that are mentioned in that string.
-NER has a wide variety of use cases in the business like, when you are writing an email and mention time or attaching
-a file, Gmail offers to set a calendar notification or remind you to attach the file in case you are sending the email
-without an attachment.</p>
-<p>Use cases of  NER:</p>
-<ul class="simple">
-<li><p>Extracting important named entities from legal, financial, and medical documents</p></li>
-<li><p>Classification and Detection of Fake News : News and publishing houses generate large amounts of online content on a daily basis and managing them correctly is very important to get the most use of each article. Named Entity Recognition can automatically investigate entire articles and expose which are the major people, organizations, and places discussed in them. Knowing the relevant tags for each article helps in automatically classifying the articles in defined hierarchies and enable smooth content discovery. An example of how this work can be seen in the example below.</p></li>
-<li><p>Efficient Search Algorithms: Let’s suppose you are intending to design an internal search algorithm for an online publisher that has millions of articles. If for every search query the algo ends up searching all the words in millions of articles, the process will take hell lot of time! Instead, if NER can be run once on all the articles and the relevant entities (tags) associated with each of those articles are stored separately, this could speed up the search process incredibly! With this approach, a search term will be matched with only the small list of entities discussed in each article leading to faster search execution.</p></li>
-<li><p>Customer Support: There are a number of ways to make the process of customer feedback procedure smooth and easy by using NER. Let’s take an example to understand the process. If you are handling the customer support department of an electronic store with multiple branches worldwide, you go through a number mentions in your customers’ feedback.</p></li>
-</ul>
-<p>Mozhi provides set of tools for end-to-end Named Entity Recognition (NER) NLP tasks, that includes:</p>
-<ul class="simple">
-<li><p>Web based annotation tool</p></li>
-<li><p>Data preprocessing</p></li>
-<li><p>Model training</p></li>
-<li><p>Deploying models</p></li>
-</ul>
-<img alt="header-img" class="align-center" src="_images/mozhi_image_annotator.png" />
-</section>
-<section id="contents">
-<h1>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="setup/setup.html">Developers Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="study_materials/study_materials.html">Mozhi Study Materials</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ner/ner.html">NER - Named Entity Recognition</a></li>
-</ul>
-</div>
-</section>
-<section id="api">
-<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="mozhi/mozhi.html">mozhi</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.augmenter.html">mozhi.augmenter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.bin.html">mozhi.bin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.config.html">mozhi.config</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.dataset.html">mozhi.dataset</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.db.html">mozhi.db</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.engine.html">mozhi.engine</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.external.html">mozhi.external</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.metrics.html">mozhi.metrics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.model.html">mozhi.model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.nlp.html">mozhi.nlp</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.ocr.html">mozhi.ocr</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.pipeline.html">mozhi.pipeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.preprocessor.html">mozhi.preprocessor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.protocol.html">mozhi.protocol</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.serve.html">mozhi.serve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.transformers.html">mozhi.transformers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mozhi/mozhi.utils.html">mozhi.utils</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
-</section>
+  <noscript>
+  <div id="fallback" class="admonition warning">
+    <p class="last">
+      Please activate JavaScript to enable the search
+      functionality.
+    </p>
+  </div>
+  </noscript>
 
+  
+  <div id="search-results">
+  
+  </div>
 
                         
                     </div>
@@ -364,14 +303,22 @@ without an attachment.</p>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/searchtools.js"></script>
     <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
   
     <div class="footer" role="contentinfo">
         <div class="container">
             &#169; Copyright 2021, Mozhi.
         Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.1.
         </div>
-    </div>  
+    </div>
+  
 
 </body>
 </html>
